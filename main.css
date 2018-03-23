@@ -1,0 +1,24 @@
+iframe {
+  height: 100vh;
+  width:  100vw;
+}
+.action_group {
+  position: fixed;
+  left: 1em;
+  z-index: 500;
+  bottom: 1em;
+}
+.action_button {
+  background-color: #0066ff;
+  color: white;
+  padding: 0.5em 1em;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 0.325em;
+}
+.action_button:hover,
+.action_button:active {
+  background-color: #66a3ff;
+}
+.red {
+  background-color: red;
+}
